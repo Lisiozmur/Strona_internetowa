@@ -1,0 +1,135 @@
+@font-face {font-family: "Space Ranger";
+  src: url("font/a91b529fe5de7adf949930d160321676.eot"); /* IE9*/
+  src: url("font/a91b529fe5de7adf949930d160321676.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("font/a91b529fe5de7adf949930d160321676.woff2") format("woff2"), /* chromeÃ£â‚¬Âfirefox */
+  url("font/a91b529fe5de7adf949930d160321676.woff") format("woff"), /* chromeÃ£â‚¬Âfirefox */
+  url("font/a91b529fe5de7adf949930d160321676.ttf") format("truetype"), /* chromeÃ£â‚¬ÂfirefoxÃ£â‚¬ÂoperaÃ£â‚¬ÂSafari, Android, iOS 4.2+*/
+  url("font/a91b529fe5de7adf949930d160321676.svg#Space Ranger") format("svg"); /* iOS 4.1- */
+}
+@media screen and (min-device-width: 768px) and (max-width: 995px) {.space {
+	/*margin-bottom:-250px!important*/
+}
+ }
+ 
+ @media screen and (max-width: 767px) {.space {
+	/*margin-bottom:-100px!important*/
+}
+ }
+ 
+ @media screen and (max-width: 767px) {.second {
+/*margin-top:20px!important*/
+	 
+}
+ }
+ 
+ @media screen and (max-width: 767px) {.hoctitle {
+	font-size:0.9em!important
+}
+ }
+ 
+
+
+
+
+ 
+@media screen and (min-device-width: 992px) and (max-width: 1198px)  {.mintcounter {
+margin-right: 10px!important;margin-left:10px!important;color:#dc3545;font-size:1.5em!important;
+}
+ }
+ 
+
+
+@media screen and (min-device-width: 992px) and (max-width: 1198px)  {.mobiladdress {
+font-size: 15px!important;
+}
+ }
+ 
+
+
+
+.mobiladdress{
+font-size: 20px;color: #f3ba2f;text-align:center;	
+	
+}
+
+
+.mintcounterhoc{
+color:#f3ba2f;font-size: 30px;line-height: normal;margin-top:20px 
+	 
+ }
+ 
+.mintcounter{
+margin-right: 20px;margin-left:20px;color:#dc3545;font-size:1.8em;
+	
+}
+ 
+.buttonplus{
+width:65px;
+}
+
+.buttonminus{
+width:65px;
+}
+
+
+.buttonmint{
+width:190px;	
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {right: -350px;}
+  to {right: 0px;}
+}
+
+@-webkit-keyframes pulse {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+
+
+.hoctitle {
+	
+font-size:1.3em;
+	
+}
+
+
+
+ .tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipboxtext {
+visibility: hidden;
+width: 130px;
+color: #fff;
+text-align: center;
+border-radius: 15px;
+padding: 5px 0;
+position: inherit;
+z-index: 1;
+font-size: 16px;
+opacity: 0;
+transition: opacity 0.3s;
+background: linear-gradient(90deg, rgb(29, 10, 10) 0%, rgb(25, 24, 24) 100%);
+display: block ruby;
+}
+
+.tooltipbox:hover .tooltipboxtext {
+  visibility: visible;
+  opacity: 1;
+}
+
